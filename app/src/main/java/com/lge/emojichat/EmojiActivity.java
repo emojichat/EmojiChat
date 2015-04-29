@@ -8,7 +8,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.FrameLayout;
-
 import com.lge.emojichat.constants.Constants;
 import com.lge.emojichat.util.EmojiUtils;
 
