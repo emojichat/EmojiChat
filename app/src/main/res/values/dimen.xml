@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="emoji_width_height">120dp</dimen>
+    <dimen name="emoji_bg_width_height">125dp</dimen>
+    <dimen name="scroll_width_height">230dp</dimen>
+    <dimen name="mini_emoji_width_height">30dp</dimen>
+
+    <dimen name="touch_limit_radius">60dp</dimen>
+    <dimen name="category_image_correct_radius">22dp</dimen>
+</resources>
