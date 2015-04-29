@@ -8,6 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.FrameLayout;
+
 import com.lge.emojichat.constants.Constants;
 import com.lge.emojichat.util.EmojiUtils;
 
@@ -63,7 +64,7 @@ public class EmojiActivity extends Activity implements View.OnTouchListener,OnCl
         mCenterY = mCenterX;
         mRadius = getResources().getDimension(R.dimen.touch_limit_radius);
 
-        mOkButton = new CatEmojiImageView(this, R.drawable.message_bg, Constants.EMOJI_OK);
+        mOkButton = new CatEmojiImageView(this, R.drawable.sendicon, Constants.EMOJI_OK);
         mEmoji_0 = new CatEmojiImageView(this, R.drawable.emoji_good_2, Constants.EMOJI_0);
         mEmoji_1 = new CatEmojiImageView(this, R.drawable.emoji_love, Constants.EMOJI_1);
         mEmoji_2 = new CatEmojiImageView(this, R.drawable.emoji_good_4, Constants.EMOJI_2);
